@@ -1,0 +1,6 @@
+NREL key=db7d31fbe3d2e64c7cc94ee5e5c7846e7b80bb32
+
+
+example:
+http://developer.nrel.gov/api/alt-fuel-stations/v1/nearest.json?api_key=db7d31fbe3d2e64c7cc94ee5e5c7846e7b80bb32
+&location=1617+Cole+Blvd+80401

@@ -1,0 +1,104 @@
+/**
+ * CSS styles for CLinkPager.
+ *
+ * @author Qiang Xue <qiang.xue@gmail.com>
+ * @link http://www.yiiframework.com/
+ * @copyright Copyright &copy; 2008-2010 Yii Software LLC
+ * @license http://www.yiiframework.com/license/
+ * @version $Id: pager.css 1678 2010-01-07 21:02:00Z qiang.xue $
+ * @since 1.0
+ */
+
+ul.yiiPager
+{
+	font-size:11px;
+	border:0;
+	margin:0;
+	padding:0;
+	line-height:100%;
+	display:inline;
+}
+
+ul.yiiPager li
+{
+	display:inline;
+}
+
+ul.yiiPager a:link,
+ul.yiiPager a:visited
+{
+	
+	font-weight:bold;
+	
+	padding:2px 6px;
+	text-decoration:none;
+	
+	
+}
+
+ul.yiiPager .page a
+{
+	font-weight:normal;
+	font-size:12px;
+	color:white;
+	background-color:#2c2d31;
+}
+
+ul.yiiPager a:hover
+{
+	border:solid 1px #0e509e;
+	
+}
+
+ul.yiiPager .selected a
+{
+	
+	color:#2c2d31;
+	font-weight:bold;
+	background: #dca106; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dca106 0%, #ffff00 33%, #ffff00 66%, #dca106 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dca106), color-stop(33%,#ffff00), color-stop(66%,#ffff00), color-stop(100%,#dca106)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dca106', endColorstr='#dca106',GradientType=0 ); /* IE6-9 */
+}
+
+ul.yiiPager .previous a,ul.yiiPager .next a
+{
+	color:#2c2d31;
+	font-weight:bold;
+	background: #dca106; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dca106 0%, #ffff00 33%, #ffff00 66%, #dca106 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dca106), color-stop(33%,#ffff00), color-stop(66%,#ffff00), color-stop(100%,#dca106)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dca106', endColorstr='#dca106',GradientType=0 ); /* IE6-9 */
+	font-size:12px;
+}
+
+/**
+ * Hide first and last buttons by default.
+ */
+ul.yiiPager .first,
+ul.yiiPager .last
+{
+	display:none;
+}
+ul.yiiPager .next
+{
+	
+	font-weight:bold;
+	background: #dca106; /* Old browsers */
+	background: -moz-linear-gradient(top,  #dca106 0%, #ffff00 33%, #ffff00 66%, #dca106 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#dca106), color-stop(33%,#ffff00), color-stop(66%,#ffff00), color-stop(100%,#dca106)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #dca106 0%,#ffff00 33%,#ffff00 66%,#dca106 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#dca106', endColorstr='#dca106',GradientType=0 ); /* IE6-9 */
+}
+

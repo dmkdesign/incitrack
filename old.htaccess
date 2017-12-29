@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^gridbid.com [NC]
+RewriteRule ^(.*)$ http://www.gridbid.com/$1 [L,R=301]
